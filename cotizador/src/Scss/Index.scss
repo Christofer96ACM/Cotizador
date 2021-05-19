@@ -1,0 +1,42 @@
+$color-white: #ffffff;
+
+.coti_1 {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background: $color-white;
+  mix-blend-mode: normal;
+}
+.Header {
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+}
+.Header_Logo {
+  position: absolute;
+  width: 99px;
+  height: 16px;
+  left: calc(50% - 500px / 2 - 510.5px);
+  top: calc(50% - 16px / 2);
+}
+.Header_Texto {
+  position: absolute;
+  width: 550px;
+  height: 35px;
+  left: calc(100% - 500px / 2 - 510.5px);
+  top: calc(50% - 30px / 2);
+}
+.Footer {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 900px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: "normal";
+  color: #a3abcc;
+  letter-spacing: 0.2px;
+}
