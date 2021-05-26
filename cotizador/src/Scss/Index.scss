@@ -1,42 +1,108 @@
 $color-white: #ffffff;
-
+.App {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
 .coti_1 {
-  position: relative;
   width: 100%;
-  height: 900px;
+  height: 855px;
   background: $color-white;
   mix-blend-mode: normal;
+  // background-color: aqua;
 }
 .Header {
-  position: absolute;
-  font-family: "Roboto", sans-serif;
   width: 100%;
-  height: 60px;
+  height: 55px;
+  font-family: "Roboto", sans-serif;
   left: 0px;
   top: 0px;
+  // background-color: rgb(65, 73, 73);
 }
-.Header_Logo {
-  position: absolute;
-  width: 99px;
-  height: 16px;
-  left: calc(50% - 500px / 2 - 510.5px);
-  top: calc(50% - 16px / 2);
+.Container {
+  padding-top: 15px;
+  height: 850px;
 }
-.Header_Texto {
-  position: absolute;
-  width: 550px;
-  height: 35px;
-  left: calc(100% - 500px / 2 - 510.5px);
-  top: calc(50% - 30px / 2);
+.Body {
+  width: 100%;
+  height: 850px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: "normal";
+}
+
+.Formulario {
+  padding-top: 200px;
+  width: 350px;
+}
+.InicioDatos {
+  float: left;
+  color: #494f66;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: -0.2px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+}
+.Politica {
+  font-family: "Roboto", sans-serif;
+  font-style: "normal";
+  color: #494f66;
+  text-decoration: underline;
+}
+.InicioNuevo {
+  color: #494f66;
+  float: left;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+.InicioIzq {
+  width: 350px;
+  padding-top: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.InicioSeguro {
+  float: left;
+  color: red;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  height: 100px;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 0.8px;
+}
+.Seguro {
+  color: #494f66;
+}
+.InicioCuentanos {
+  color: #494f66;
+  float: left;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
 }
 .Footer {
-  position: absolute;
   width: 100%;
-  height: 20px;
-  top: 900px;
+  height: 30px;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-style: "normal";
   color: #a3abcc;
   letter-spacing: 0.2px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  // background-color: rgb(18, 92, 92);
 }

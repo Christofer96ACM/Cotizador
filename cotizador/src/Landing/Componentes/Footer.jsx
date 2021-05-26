@@ -5,7 +5,7 @@ const Footer = () => (
   <div className="Footer">
     <Container>
       <Row>
-        <Col>
+        <Col xs={12}>
             © 2020 RIMAC Seguros y Reaseguros.
         </Col>
       </Row>
